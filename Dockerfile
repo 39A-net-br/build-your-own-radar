@@ -15,6 +15,8 @@ COPY package.json ./
 COPY package-lock.json ./
 RUN npm ci
 
+EXPOSE 8080
+
 COPY . ./
 
 # Override parent node image's entrypoint script (/usr/local/bin/docker-entrypoint.sh),
