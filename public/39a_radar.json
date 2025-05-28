@@ -1,0 +1,450 @@
+[
+  {
+    "name": "GPT-4",
+    "ring": "Trial",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>GPT-4</strong> — Modelo multimodal da OpenAI que entende texto e imagem, base do ChatGPT Plus.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='https://openai.com/gpt-4' target='_blank'>https://openai.com/gpt-4</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Trial”:</b> Alta adoção experimental, testes ativos em produtos e empresas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:70%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "LangChain",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>LangChain</strong> — Framework para construção de apps com LLMs usando agentes, memória e RAG.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='https://www.langchain.com' target='_blank'>https://www.langchain.com</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Trial”:</b> Alta adoção experimental, testes ativos em produtos e empresas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:70%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "PyTorch",
+    "ring": "Adopt",
+    "quadrant": "Languages-and-Frameworks",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>PyTorch</strong> — Framework de deep learning usado por Meta, OpenAI e comunidade de pesquisa.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='https://pytorch.org' target='_blank'>https://pytorch.org</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Adopt”:</b> Uso consolidado e amplo em empresas e comunidade técnica.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:90%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Prompt Engineering",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Prompt Engineering</strong> — Técnica de construção de prompts para extrair melhores resultados de LLMs.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='https://platform.openai.com/docs/guides/prompt-engineering' target='_blank'>https://platform.openai.com/docs/guides/prompt-engineering</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Adopt”:</b> Uso consolidado e amplo em empresas e comunidade técnica.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:90%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Databricks",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Databricks</strong> — Plataforma de lakehouse que unifica dados e IA para empresas.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='https://www.databricks.com' target='_blank'>https://www.databricks.com</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Adopt”:</b> Uso consolidado e amplo em empresas e comunidade técnica.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:90%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "AutoGPT",
+    "ring": "Assess",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>AutoGPT</strong> — Projeto experimental de agente LLM autônomo para tarefas complexas.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='https://github.com/Torantulino/Auto-GPT' target='_blank'>https://github.com/Torantulino/Auto-GPT</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Assess”:</b> Potencial promissor, mas ainda em validação por especialistas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:50%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "TensorFlow",
+    "ring": "Trial",
+    "quadrant": "Languages-and-Frameworks",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>TensorFlow</strong> — Framework de ML criado pelo Google para treino e deploy de modelos em larga escala.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='https://www.tensorflow.org' target='_blank'>https://www.tensorflow.org</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Trial”:</b> Alta adoção experimental, testes ativos em produtos e empresas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:70%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "RLHF",
+    "ring": "Assess",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>RLHF</strong> — Técnica de alinhamento de IA com feedback humano, usada no ChatGPT.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='https://openai.com/research/instruction-following' target='_blank'>https://openai.com/research/instruction-following</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Assess”:</b> Potencial promissor, mas ainda em validação por especialistas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:50%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Hugging Face Transformers",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Hugging Face Transformers</strong> — Biblioteca padrão para usar modelos como BERT, GPT, etc.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='https://huggingface.co/docs/transformers/index' target='_blank'>https://huggingface.co/docs/transformers/index</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Adopt”:</b> Uso consolidado e amplo em empresas e comunidade técnica.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:90%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "RAG (Retrieval-Augmented Generation)",
+    "ring": "Trial",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>RAG (Retrieval-Augmented Generation)</strong> — Combina LLMs com bases externas para gerar respostas com contexto factual.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='https://www.pinecone.io/learn/retrieval-augmented-generation/' target='_blank'>https://www.pinecone.io/learn/retrieval-augmented-generation/</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Trial”:</b> Alta adoção experimental, testes ativos em produtos e empresas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:70%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "IBM Watson",
+    "ring": "Hold",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>IBM Watson</strong> — Plataforma pioneira de IA da IBM, hoje superada por GenAI modernos.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='https://www.ibm.com/watson' target='_blank'>https://www.ibm.com/watson</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Hold”:</b> Uso decrescente ou superado por alternativas mais modernas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:20%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Mojo",
+    "ring": "Assess",
+    "quadrant": "Languages-and-Frameworks",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Mojo</strong> — Linguagem de programação da Modular que promete performance com sintaxe Python.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='https://www.modular.com/mojo' target='_blank'>https://www.modular.com/mojo</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Assess”:</b> Potencial promissor, mas ainda em validação por especialistas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:50%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "JAX",
+    "ring": "Trial",
+    "quadrant": "Languages-and-Frameworks",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>JAX</strong> — Framework da Google para computação diferenciável com foco em performance.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='https://jax.readthedocs.io/en/latest/' target='_blank'>https://jax.readthedocs.io/en/latest/</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Trial”:</b> Alta adoção experimental, testes ativos em produtos e empresas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:70%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Few-shot learning",
+    "ring": "Assess",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Few-shot learning</strong> — Capacidade de modelos realizarem tarefas com poucos exemplos.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='https://arxiv.org/abs/2005.14165' target='_blank'>https://arxiv.org/abs/2005.14165</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Assess”:</b> Potencial promissor, mas ainda em validação por especialistas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:50%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Pinecone",
+    "ring": "Trial",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Pinecone</strong> — Base vetorial em nuvem para projetos com RAG, embeddings e LLMs.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='https://www.pinecone.io' target='_blank'>https://www.pinecone.io</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Trial”:</b> Alta adoção experimental, testes ativos em produtos e empresas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:70%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "ChatGPT",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>ChatGPT</strong> — ChatGPT é uma solução relevante no domínio de IA, amplamente utilizada em seu contexto.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Adopt”:</b> Uso consolidado e amplo em empresas e comunidade técnica.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:90%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Cohere",
+    "ring": "Trial",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Cohere</strong> — Cohere é uma solução relevante no domínio de IA, amplamente utilizada em seu contexto.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Trial”:</b> Alta adoção experimental, testes ativos em produtos e empresas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:70%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Claude",
+    "ring": "Trial",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Claude</strong> — Claude é um modelo de linguagem da Anthropic focado em segurança, usado para aplicações de IA confiável e assistentes corporativos.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Trial”:</b> Alta adoção experimental, testes ativos em produtos e empresas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:70%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "OpenAI API",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>OpenAI API</strong> — OpenAI API é uma solução relevante no domínio de IA, amplamente utilizada em seu contexto.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Adopt”:</b> Uso consolidado e amplo em empresas e comunidade técnica.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:90%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Weights & Biases",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Weights & Biases</strong> — Weights & Biases é uma plataforma que ajuda equipes de IA a rastrear experimentos, visualizar métricas e colaborar com eficiência.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Trial”:</b> Alta adoção experimental, testes ativos em produtos e empresas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:70%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "MLflow",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>MLflow</strong> — MLflow padroniza o ciclo de vida do machine learning, permitindo reprodutibilidade, versionamento e deploy de modelos com governança.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Adopt”:</b> Uso consolidado e amplo em empresas e comunidade técnica.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:90%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Docker",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Docker</strong> — Docker encapsula aplicações em containers, tornando fácil o deploy escalável e portátil de sistemas de IA e microserviços.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Adopt”:</b> Uso consolidado e amplo em empresas e comunidade técnica.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:90%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Apache Airflow",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Apache Airflow</strong> — Apache Airflow orquestra pipelines de dados e IA, automatizando processos críticos com rastreabilidade e agendamento robusto.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Adopt”:</b> Uso consolidado e amplo em empresas e comunidade técnica.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:90%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Scikit-learn",
+    "ring": "Adopt",
+    "quadrant": "Languages-and-Frameworks",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Scikit-learn</strong> — Scikit-learn é uma biblioteca de ML consolidada para tarefas supervisionadas e não supervisionadas, ideal para análise preditiva.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Adopt”:</b> Uso consolidado e amplo em empresas e comunidade técnica.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:90%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "R",
+    "ring": "Hold",
+    "quadrant": "Languages-and-Frameworks",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>R</strong> — R é uma linguagem de análise estatística usada em data science, embora com adoção menor frente ao Python no contexto de IA moderna.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Hold”:</b> Uso decrescente ou superado por alternativas mais modernas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:20%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "BERT",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>BERT</strong> — BERT é um modelo de linguagem bidirecional da Google que melhorou significativamente tarefas de NLP como busca e classificação.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Adopt”:</b> Uso consolidado e amplo em empresas e comunidade técnica.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:90%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "LLaMA",
+    "ring": "Trial",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>LLaMA</strong> — LLaMA é uma série de LLMs open-source da Meta, oferecendo performance comparável a modelos comerciais com custo reduzido.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Trial”:</b> Alta adoção experimental, testes ativos em produtos e empresas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:70%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Anthropic Constitutional AI",
+    "ring": "Assess",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Anthropic Constitutional AI</strong> — Anthropic Constitutional AI é uma solução relevante no domínio de IA, amplamente utilizada em seu contexto.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Assess”:</b> Potencial promissor, mas ainda em validação por especialistas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:50%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "LoRA",
+    "ring": "Trial",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>LoRA</strong> — LoRA permite ajustar grandes LLMs com poucos parâmetros, tornando fine-tuning mais acessível e eficiente.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Trial”:</b> Alta adoção experimental, testes ativos em produtos e empresas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:70%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Fine-tuning",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Fine-tuning</strong> — Fine-tuning transforma um modelo LLM genérico em um expert no domínio que foi refinado, e requer um investimento significativo de recursos.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Adopt”:</b> Uso consolidado e amplo em empresas e comunidade técnica.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:90%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Chain-of-Thought Prompting",
+    "ring": "Assess",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Chain-of-Thought Prompting</strong> — Cadeia de pensamento instrui LLMs a pensar passo a passo, melhorando desempenho em tarefas de raciocínio.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Assess”:</b> Potencial promissor, mas ainda em validação por especialistas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:50%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "DVC",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>DVC</strong> — DVC é uma ferramenta de versionamento de dados e modelos de ML, integrando CI/CD ao ciclo de vida de IA.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Trial”:</b> Alta adoção experimental, testes ativos em produtos e empresas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:70%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Google Vertex AI",
+    "ring": "Trial",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Google Vertex AI</strong> — Vertex AI é a plataforma de machine learning da Google Cloud que unifica treino, deploy e MLOps com segurança empresarial.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Trial”:</b> Alta adoção experimental, testes ativos em produtos e empresas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:70%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Keras",
+    "ring": "Hold",
+    "quadrant": "Languages-and-Frameworks",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Keras</strong> — Keras é uma API de alto nível de redes neurais, usada como entrada para TensorFlow; perdeu destaque frente a PyTorch.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Hold”:</b> Uso decrescente ou superado por alternativas mais modernas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:20%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Delta Lake",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Delta Lake</strong> — Delta Lake combina confiabilidade de data warehouse com escalabilidade de data lake, sendo base do Databricks.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Adopt”:</b> Uso consolidado e amplo em empresas e comunidade técnica.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:90%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "FastAPI",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>FastAPI</strong> — FastAPI é um framework web moderno usado para construir APIs leves e rápidas para aplicações de IA e dados.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Adopt”:</b> Uso consolidado e amplo em empresas e comunidade técnica.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:90%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Streamlit",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Streamlit</strong> — Streamlit facilita a criação de dashboards interativos para protótipos de IA e visualização de modelos com baixo código.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Adopt”:</b> Uso consolidado e amplo em empresas e comunidade técnica.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:90%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Elasticsearch",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Elasticsearch</strong> — Elasticsearch é um mecanismo de busca escalável usado para indexação e recuperação rápida de dados e embeddings.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Adopt”:</b> Uso consolidado e amplo em empresas e comunidade técnica.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:90%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Haystack",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Haystack</strong> — Haystack é um framework para construir motores de busca inteligentes com RAG e integração com LLMs.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Trial”:</b> Alta adoção experimental, testes ativos em produtos e empresas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:70%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Apache Spark",
+    "ring": "Hold",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Apache Spark</strong> — Apache Spark processa dados em larga escala com alta performance, mas cedeu espaço a ferramentas como Databricks.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Hold”:</b> Uso decrescente ou superado por alternativas mais modernas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:20%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "ONNX",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>ONNX</strong> — ONNX padroniza o formato de modelos de IA, permitindo portabilidade entre frameworks como PyTorch e TensorFlow.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Trial”:</b> Alta adoção experimental, testes ativos em produtos e empresas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:70%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Triton Inference Server",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Triton Inference Server</strong> — Triton acelera o deploy de modelos de IA em GPU e CPU com suporte multiframework e balanceamento de carga.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Trial”:</b> Alta adoção experimental, testes ativos em produtos e empresas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:70%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Pytorch Lightning",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Pytorch Lightning</strong> — PyTorch Lightning simplifica o código de modelos em PyTorch com foco em pesquisa reprodutível e escalável.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Trial”:</b> Alta adoção experimental, testes ativos em produtos e empresas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:70%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Diffusion Models",
+    "ring": "Trial",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Diffusion Models</strong> — Modelos de difusão geram imagens realistas a partir de ruído, base de ferramentas como Stable Diffusion.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Trial”:</b> Alta adoção experimental, testes ativos em produtos e empresas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:70%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "GANs",
+    "ring": "Hold",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>GANs</strong> — GANs geram novos dados por competição entre redes neurais, sendo base de muitos avanços em mídia sintética.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Hold”:</b> Uso decrescente ou superado por alternativas mais modernas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:20%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Zero-shot learning",
+    "ring": "Assess",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Zero-shot learning</strong> — Zero-shot learning permite que modelos façam previsões em classes nunca vistas, com base em generalização sem exemplos.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Assess”:</b> Potencial promissor, mas ainda em validação por especialistas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:50%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Apache Beam",
+    "ring": "Hold",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Apache Beam</strong> — Apache Beam unifica modelos de programação de dados em lote e streaming, embora menos adotado em IA moderna.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Hold”:</b> Uso decrescente ou superado por alternativas mais modernas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:20%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Kubeflow",
+    "ring": "Trial",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Kubeflow</strong> — Kubeflow é uma plataforma de MLOps em Kubernetes para treino, deploy e monitoramento de pipelines de ML.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Trial”:</b> Alta adoção experimental, testes ativos em produtos e empresas.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:70%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "BigQuery ML",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>BigQuery ML</strong> — BigQuery ML permite criar e executar modelos de ML diretamente em SQL sobre grandes volumes de dados.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Adopt”:</b> Uso consolidado e amplo em empresas e comunidade técnica.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:90%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Apache Kafka",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Apache Kafka</strong> — Kafka transmite eventos em tempo real com baixa latência, sendo amplamente usado em arquiteturas orientadas a eventos com IA.<br><br>\n  <b>Criado por:</b> Vários desenvolvedores e empresas líderes.<br>\n  <b>Idade:</b> variável (entre 1 e 15 anos).<br>\n  <b>Referências:</b> milhares de citações e aplicações práticas.<br>\n  <b>Exemplos:</b> <a href='N/A' target='_blank'>N/A</a><br>\n  <b>Valuation/Impacto:</b> Significativo no ecossistema de IA.<br>\n  <b>Classificação “Adopt”:</b> Uso consolidado e amplo em empresas e comunidade técnica.<br><br>\n  <div style='width:100px;background:#eee'><div style='width:90%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "n8n",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "isNew": "TRUE",
+    "status": "new",
+    "description": "<div style=\"font-family: Arial, sans-serif; line-height: 1.5;\">\n  <h3 style=\"color: #2c3e50;\">Resumo Executivo</h3>\n  <p><strong>n8n</strong> (pronuncia-se \"n-eight-n\") é uma plataforma de automação de fluxos de trabalho que combina a flexibilidade do código com a praticidade do low-code. Permite a criação de automações complexas integrando mais de 500 serviços, incluindo APIs, bancos de dados e ferramentas de IA generativa.</p>\n\n  <h3 style=\"color: #2c3e50;\">Criador e Idade</h3>\n  <p>Fundado por <strong>Jan Oberhauser</strong> em novembro de 2019, em Berlim, Alemanha, o n8n tem se destacado como uma alternativa poderosa no cenário de automação de processos empresariais. (<a href=\"https://www.clay.com/dossier/n8n-funding?utm_source=chatgpt.com\" target=\"_blank\">clay.com</a>)</p>\n\n  <h3 style=\"color: #2c3e50;\">Referências</h3>\n  <ul>\n    <li><a href=\"https://n8n.io/\" target=\"_blank\">Site oficial</a></li>\n    <li><a href=\"https://github.com/n8n-io/n8n\" target=\"_blank\">Repositório no GitHub</a></li>\n    <li><a href=\"https://www.youtube.com/watch?v=_EdRzDY9nh4\" target=\"_blank\">Tutorial para iniciantes</a></li>\n  </ul>\n\n  <h3 style=\"color: #2c3e50;\">Exemplo de Uso</h3>\n  <p>Um exemplo prático é a automação de respostas a formulários, onde dados coletados via Typeform são processados, analisados com IA e armazenados em um banco de dados, tudo isso sem intervenção manual. (<a href=\"https://n8n.io/workflows/2940-ai-agent-for-n8n-creators-leaderboard-find-popular-workflows/?utm_source=chatgpt.com\" target=\"_blank\">n8n.io</a>)</p>\n\n  <h3 style=\"color: #2c3e50;\">Impacto</h3>\n  <p>O n8n tem ganhado popularidade significativa, com mais de 97 mil estrelas no GitHub, refletindo sua adoção crescente por desenvolvedores e empresas que buscam soluções de automação eficientes e personalizáveis. (<a href=\"https://github.com/n8n-io/n8n?utm_source=chatgpt.com\" target=\"_blank\">github.com</a>)</p>\n\n  <h3 style=\"color: #2c3e50;\">Justificativa da Classificação</h3>\n  <p>Classificado como \"Trial\" no radar devido à sua maturidade crescente e adoção em ambientes de produção. Sua capacidade de integração com diversas ferramentas e suporte à IA o tornam uma opção promissora para equipes técnicas explorarem e avaliarem.</p>\n\n  <h3 style=\"color: #2c3e50;\">Gráfico de Popularidade</h3>\n  <p><img src=\"https://img.shields.io/github/stars/n8n-io/n8n?style=social\" alt=\"GitHub stars\"></p>\n</div>"
+  },
+  {
+    "name": "GCP",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "TRUE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>GCP</strong> — Google Cloud Platform oferece serviços gerenciados de IA, big data e modelos de linguagem.<br><br>\n  <b>Criado por:</b> N/A<br>\n  <b>Idade:</b> variável<br>\n  <b>Referências:</b> em crescimento<br>\n  <b>Exemplos:</b> <a href='https://example.com/gcp'>Ver exemplo</a><br>\n  <b>Valuation/Impacto:</b> significativo em ecossistemas de IA<br>\n  <b>Classificação “Adopt”:</b> baseado em evidências de uso e maturidade atual<br><br>\n  <div style='width:100px;background:#eee'><div style='width:90%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "ChromaDB",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "isNew": "TRUE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>ChromaDB</strong> — ChromaDB é um banco vetorial especializado em RAG, com foco em integração com LLMs.<br><br>\n  <b>Criado por:</b> N/A<br>\n  <b>Idade:</b> variável<br>\n  <b>Referências:</b> em crescimento<br>\n  <b>Exemplos:</b> <a href='https://example.com/chromadb'>Ver exemplo</a><br>\n  <b>Valuation/Impacto:</b> significativo em ecossistemas de IA<br>\n  <b>Classificação “Trial”:</b> baseado em evidências de uso e maturidade atual<br><br>\n  <div style='width:100px;background:#eee'><div style='width:70%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Prisma DB",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "isNew": "TRUE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Prisma DB</strong> — Prisma é um ORM moderno usado para acessar bancos de dados com foco em aplicações TypeScript.<br><br>\n  <b>Criado por:</b> N/A<br>\n  <b>Idade:</b> variável<br>\n  <b>Referências:</b> em crescimento<br>\n  <b>Exemplos:</b> <a href='https://example.com/prisma db'>Ver exemplo</a><br>\n  <b>Valuation/Impacto:</b> significativo em ecossistemas de IA<br>\n  <b>Classificação “Trial”:</b> baseado em evidências de uso e maturidade atual<br><br>\n  <div style='width:100px;background:#eee'><div style='width:70%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "LangSmith",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "isNew": "TRUE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>LangSmith</strong> — LangSmith é a plataforma de tracing, debug e análise de LLMs criada pelos desenvolvedores do LangChain.<br><br>\n  <b>Criado por:</b> N/A<br>\n  <b>Idade:</b> variável<br>\n  <b>Referências:</b> em crescimento<br>\n  <b>Exemplos:</b> <a href='https://example.com/langsmith'>Ver exemplo</a><br>\n  <b>Valuation/Impacto:</b> significativo em ecossistemas de IA<br>\n  <b>Classificação “Trial”:</b> baseado em evidências de uso e maturidade atual<br><br>\n  <div style='width:100px;background:#eee'><div style='width:70%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "Redis",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "TRUE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Redis</strong> — Redis é um banco em memória de alta performance, usado como cache ou base vetorial para IA em tempo real.<br><br>\n  <b>Criado por:</b> N/A<br>\n  <b>Idade:</b> variável<br>\n  <b>Referências:</b> em crescimento<br>\n  <b>Exemplos:</b> <a href='https://example.com/redis'>Ver exemplo</a><br>\n  <b>Valuation/Impacto:</b> significativo em ecossistemas de IA<br>\n  <b>Classificação “Adopt”:</b> baseado em evidências de uso e maturidade atual<br><br>\n  <div style='width:100px;background:#eee'><div style='width:90%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  }
+]
