@@ -33,6 +33,10 @@ const plotRadar = function (title, blips, currentRadarName, alternativeRadars) {
   if (title.endsWith('.json')) {
     title = title.substring(0, title.length - 5)
   }
+  console.log(title)
+  if (title == "39a_radar.json") {
+    title = "39a Tech Radar"
+  }
   document.title = title
   d3.selectAll('.loading').remove()
 

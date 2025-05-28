@@ -4,8 +4,9 @@
 @if $UIRefresh2022 {
   .hero-banner {
     height: $tabletBannerHeight;
-    background-color: $amethyst;
-    background-image: url('/images/banner-image-mobile.jpg');
+    background-color: $black;
+    /* background-image: url('/images/banner-image-mobile.jpg'); */
+    /* background-image: url('/images/39a_logo.png'); */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
@@ -13,13 +14,17 @@
     display: flex;
     align-items: center;
     margin: 0 !important;
+    justify-content: space-between;
+    padding: 0 30px;
 
     @include media-query-large {
-      background-image: url('/images/banner-image-mobile.jpg');
+      /* background-image: url('/images/banner-image-mobile.jpg'); */
+      /* background-image: url('/images/39a_logo.png'); */
     }
 
     @include media-query-xlarge {
-      background-image: url('/images/banner-image-desktop.jpg');
+      /* background-image: url('/images/banner-image-desktop.jpg'); */
+      /* background-image: url('/images/39a_logo.png'); */
       height: $bannerHeight;
       background-size: cover;
     }
@@ -70,5 +75,37 @@
         width: 33%;
       }
     }
+  }
+
+  .logo-39a {
+    width: auto;
+    height: $tabletBannerHeight;
+    // background-color: $black
+  }
+}
+
+.banner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 170px;
+  padding: 30px 30px;
+  background-color: $black;
+}
+
+.banner-text {
+  font-size: 48px;
+  font-weight: bold;
+  color: $white;
+}
+
+.banner-logo {
+  height: 100%;
+  width: auto;
+}
+
+@media (max-width: 600px) {
+  .banner-logo {
+    height: 60%;
   }
 }

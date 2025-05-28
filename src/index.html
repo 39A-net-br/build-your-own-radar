@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- <meta http-equiv="refresh" content="0; URL='http://localhost:8080/?documentId=http%3A//localhost%3A8080/files/radar2.json'"/> -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/images/favicon.ico" rel="icon" />
+    <link href="/images/39a_favicon.png" rel="icon" />
     <link rel="preconnect" href="https://rsms.me/" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" integrity="sha512-byor" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,20 +13,27 @@
   </head>
 
   <body>
-    <header class="input-sheet__logo">
-      <div>
-        <span>Powered by</span>
-        <a href="https://www.thoughtworks.com"><img src="/images/tw-logo.png" alt="Thoughtworks logo" /></a>
-      </div>
-    </header>
-    <div class="hero-banner">
-      <div class="hero-banner__wrapper">
-        <h1 class="hero-banner__title-text">Build your own Radar</h1>
-      </div>
+    <script>
+      const currentUrl    = window.location.href;
+      const currentDomain = window.location.origin;
+      const radarPath = "/files/39a_radar.json"
+      const radarUrl = currentDomain + radarPath
+      const redirectUrl = currentDomain + "/?documentId=" + encodeURIComponent(radarUrl)
+
+      if (currentDomain + '/' == currentUrl) {
+        const meta = document.createElement('meta');
+        meta.httpEquiv = 'refresh';
+        meta.content = `0;url='${redirectUrl}'`; // Redirect after 3 seconds
+        document.head.appendChild(meta);
+      }
+    </script>
+    <div class="banner">
+      <h1 class="banner-text">Tech Radar</h1>
+      <img class="banner-logo" src="./images/39a_logo.png" alt="39a Logo">
     </div>
     <main>
       <div id="pdf-cover-page">
-        <img class="pdf-banner-image" src="/images/pdf_banner.png" alt="Pdf cover image" width="100%" height="300px" />
+        <img class="pdf-banner-image" src="/images/39a_logo.png" alt="Pdf cover image" width="100%" height="300px" />
         <h1 class="pdf-title"></h1>
         <div class="pdf-powered-by-text">
           <span>Powered by</span>
@@ -54,8 +62,7 @@
       <div id="error-container" class="error-container home-page"></div>
       <div class="input-sheet-form home-page">
         <p>
-          Enter the URL of your
-          <a href="https://www.thoughtworks.com/radar/byor" target="_blank">Google Sheet, CSV or JSON</a> file below…
+          Enter the URL of your Google Sheet, CSV or JSON file below…
         </p>
         <form id="byor-form-submit" method="get">
           <input
@@ -92,11 +99,7 @@
         </div>
       </div>
       <p class="agree-terms">
-        Powered by <a href="https://www.thoughtworks.com"> Thoughtworks</a>. By using this service you agree to
-        <a href="https://www.thoughtworks.com/radar/tos">Thoughtworks' terms of use</a>. You also agree to our
-        <a href="https://www.thoughtworks.com/privacy-policy">privacy policy</a>, which describes how we will gather,
-        use and protect any personal data contained in your public Google Sheet. This software is
-        <a href="https://github.com/thoughtworks/build-your-own-radar">open source</a> and available for download and
+        This software is <a href="https://github.com/39A-net-br/build-your-own-radar">open source</a> and available for download and
         self-hosting.
       </p>
     </footer>
