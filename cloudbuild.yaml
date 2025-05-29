@@ -1,5 +1,112 @@
 steps:
   - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - '--build-arg'
+      - 'AUTH_URL=${_AUTH_URL}'
+      - '--build-arg'
+      - 'AUTH_SECRET=${_AUTH_SECRET}'
+      - '--build-arg'
+      - DATABASE_URL=$$S_DATABASE_URI
+      - '--build-arg'
+      - DATABASE_DIRECT_URL=$$S_DATABASE_DIRECT_URI
+      - '--build-arg'
+      - AWS_ACCESS_KEY_ID=$$S_AWS_ID
+      - '--build-arg'
+      - AWS_SECRET_ACCESS_KEY=$$S_AWS_KEY
+      - '--build-arg'
+      - 'AWS_REGION=${_AWS_REGION}'
+      - '--build-arg'
+      - 'REDIS_URL=${_REDIS_URL}'
+      - '--build-arg'
+      - 'CHAT_HISTORY_REDIS_URL=${_CHAT_HISTORY_REDIS_URL}'
+      - '--build-arg'
+      - META_APP_ID=$$S_META_ID
+      - '--build-arg'
+      - META_APP_SECRET=$$S_META_SECRET
+      - '--build-arg'
+      - 'META_HUB_VERIFY_TOKEN=${_META_HUB_VERIFY_TOKEN}'
+      - '--build-arg'
+      - META_ACCESS_TOKEN=$$S_META_TOKEN
+      - '--build-arg'
+      - 'DISABLE_WORKER=${_DISABLE_WORKER}'
+      - '--build-arg'
+      - GCP_PRIVATE_KEY=$$S_GCP_PRIVATE_KEY
+      - '--no-cache'
+      - '-t'
+      - >-
+        $_AR_HOSTNAME/$PROJECT_ID/cloud-run-source-deploy/$REPO_NAME/$_SERVICE_NAME:$COMMIT_SHA
+      - .
+      - '-f'
+      - .gcloud/Dockerfile
+    id: Build
+    secretEnv:
+      - S_DATABASE_URI
+      - S_DATABASE_DIRECT_URI
+      - S_META_ID
+      - S_META_SECRET
+      - S_META_TOKEN
+      - S_AWS_ID
+      - S_AWS_KEY
+      - S_GCP_PRIVATE_KEY
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - push
+      - >-
+        $_AR_HOSTNAME/$PROJECT_ID/cloud-run-source-deploy/$REPO_NAME/$_SERVICE_NAME:$COMMIT_SHA
+    id: Push
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk:slim'
+    args:
+      - run
+      - services
+      - update
+      - $_SERVICE_NAME
+      - '--platform=managed'
+      - >-
+        --image=$_AR_HOSTNAME/$PROJECT_ID/cloud-run-source-deploy/$REPO_NAME/$_SERVICE_NAME:$COMMIT_SHA
+      - >-
+        --labels=managed-by=gcp-cloud-build-deploy-cloud-run,commit-sha=$COMMIT_SHA,gcb-build-id=$BUILD_ID,gcb-trigger-id=$_TRIGGER_ID
+      - '--region=$_DEPLOY_REGION'
+      - '--quiet'
+    id: Deploy
+    entrypoint: gcloud
+images:
+  - >-
+    $_AR_HOSTNAME/$PROJECT_ID/cloud-run-source-deploy/$REPO_NAME/$_SERVICE_NAME:$COMMIT_SHA
+options:
+  substitutionOption: ALLOW_LOOSE
+  logging: CLOUD_LOGGING_ONLY
+substitutions:
+  _SERVICE_NAME: ottomate-prod
+  _DEPLOY_REGION: southamerica-east1
+  _AR_HOSTNAME: southamerica-east1-docker.pkg.dev
+  _PLATFORM: managed
+  _TRIGGER_ID: 399f49d4-59fc-4373-a091-46b45afad7ee
+tags:
+  - gcp-cloud-build-deploy-cloud-run
+  - gcp-cloud-build-deploy-cloud-run-managed
+  - ottomate-prod
+availableSecrets:
+  secretManager:
+    - versionName: projects/41359178923/secrets/otto-pgbouncer-uri/versions/latest
+      env: S_DATABASE_URI
+    - versionName: projects/41359178923/secrets/otto-db-uri/versions/latest
+      env: S_DATABASE_DIRECT_URI
+    - versionName: projects/41359178923/secrets/otto-meta-app-id-prod/versions/latest
+      env: S_META_ID
+    - versionName: projects/41359178923/secrets/otto-meta-secret/versions/latest
+      env: S_META_SECRET
+    - versionName: projects/41359178923/secrets/otto-meta-token/versions/latest
+      env: S_META_TOKEN
+    - versionName: projects/41359178923/secrets/zrp-aws-id/versions/latest
+      env: S_AWS_ID
+    - versionName: projects/41359178923/secrets/zrp-aws-key/versions/latest
+      env: S_AWS_KEY
+    - versionName: projects/41359178923/secrets/pkey-otto-gcs-b64/versions/latest
+      env: S_GCP_PRIVATE_KEY
+
+steps:
+  - name: gcr.io/cloud-builders/docker
     id: Build
     args:
       - build
@@ -35,11 +142,11 @@ substitutions:
 options:
   #substitutionOption: ALLOW_LOOSE
   logging: CLOUD_LOGGING_ONLY
-availableSecrets:
-  secretManager:
-    - versionName: projects/41359178923/secrets/google-sheets-api-key-build-your-own-radar
-      env        : 'API_KEY'
 tags:
   - gcp-cloud-build-deploy-cloud-run
   - gcp-cloud-build-deploy-cloud-run-managed
   - build-your-own-radar
+#availableSecrets:
+#  secretManager:
+#    - versionName: projects/41359178923/secrets/google-sheets-api-key-build-your-own-radar
+#      env        : 'API_KEY'
