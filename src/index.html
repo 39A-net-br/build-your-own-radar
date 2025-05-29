@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- <meta http-equiv="refresh" content="0; URL='http://localhost:8080/?documentId=http%3A//localhost%3A8080/files/radar2.json'"/> -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/images/39a_favicon.png" rel="icon" />
@@ -23,7 +22,7 @@
       if (currentDomain + '/' == currentUrl) {
         const meta = document.createElement('meta');
         meta.httpEquiv = 'refresh';
-        meta.content = `0;url='${redirectUrl}'`; // Redirect after 3 seconds
+        meta.content = `0;url='${redirectUrl}'`; // Redirect after 0 seconds
         document.head.appendChild(meta);
       }
     </script>

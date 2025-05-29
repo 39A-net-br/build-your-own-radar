@@ -34,13 +34,8 @@ substitutions:
   _PLATFORM: managed
   _TRIGGER_ID: 5fa430fd-5608-4806-8b85-69ed795ee3d8
 options:
-  #substitutionOption: ALLOW_LOOSE
   logging: CLOUD_LOGGING_ONLY
 tags:
   - gcp-cloud-build-deploy-cloud-run
   - gcp-cloud-build-deploy-cloud-run-managed
   - build-your-own-radar
-#availableSecrets:
-#  secretManager:
-#    - versionName: projects/41359178923/secrets/google-sheets-api-key-build-your-own-radar
-#      env        : 'API_KEY'
