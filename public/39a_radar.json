@@ -446,5 +446,29 @@
     "isNew": "TRUE",
     "status": "new",
     "description": "<div style='font-family:Arial'>\n  <strong>Redis</strong> — Redis é um banco em memória de alta performance, usado como cache ou base vetorial para IA em tempo real.<br><br>\n  <b>Criado por:</b> N/A<br>\n  <b>Idade:</b> variável<br>\n  <b>Referências:</b> em crescimento<br>\n  <b>Exemplos:</b> <a href='https://example.com/redis'>Ver exemplo</a><br>\n  <b>Valuation/Impacto:</b> significativo em ecossistemas de IA<br>\n  <b>Classificação “Adopt”:</b> baseado em evidências de uso e maturidade atual<br><br>\n  <div style='width:100px;background:#eee'><div style='width:90%;background:#4CAF50;height:10px'></div></div>\n  </div>"
+  },
+  {
+    "name": "LangSmith",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>LangSmith</strong> — LangSmith é uma plataforma para depuração, avaliação e monitoramento de agentes e aplicações de IA baseadas em LLMs.<br><br>\n  <b>Criado por:</b> LangChain<br>\n  <b>Idade:</b> recente<br>\n  <b>Referências:</b> em rápida expansão<br>\n  <b>Exemplos:</b> <a href='https://docs.langchain.com/docs/langsmith'>Ver exemplo</a><br>\n  <b>Valuation/Impacto:</b> fundamental para observabilidade e confiabilidade de sistemas baseados em IA<br>\n  <b>Classificação “Adopt”:</b> baseado na ampla adoção entre times que desenvolvem aplicações com LLMs<br><br>\n  <div style='width:100px;background:#eee'><div style='width:90%;background:#4CAF50;height:10px'></div></div>\n</div>"
+  },
+  {
+    "name": "Zoho Desk",
+    "ring": "Assess",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Zoho Desk</strong> — Zoho Desk é uma plataforma de atendimento ao cliente baseada em nuvem, com forte foco em automação, SLA, omnichannel e integração com outros produtos da Zoho e APIs externas.<br><br>\n  <b>Criado por:</b> Zoho Corporation<br>\n  <b>Idade:</b> desde 2016<br>\n  <b>Referências:</b> amplamente utilizado em empresas de médio e grande porte<br>\n  <b>Exemplos:</b> <a href='https://www.zoho.com/desk/'>Ver exemplo</a><br>\n  <b>Valuation/Impacto:</b> relevante na melhoria da eficiência de suporte e na centralização de atendimento<br>\n  <b>Classificação “Adopt”:</b> baseado na robustez da solução e integração com ecossistemas empresariais<br><br>\n  <div style='width:100px;background:#eee'><div style='width:90%;background:#4CAF50;height:10px'></div></div>\n</div>"
+  },
+  {
+    "name": "Testes A/B",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "status": "new",
+    "description": "<div style='font-family:Arial'>\n  <strong>Testes A/B</strong> — Técnica de experimentação controlada que compara duas ou mais variantes de uma funcionalidade, interface ou conteúdo para medir desempenho com base em métricas definidas.<br><br>\n  <b>Criado por:</b> Estatística aplicada ao marketing e produto digital<br>\n  <b>Idade:</b> décadas (uso moderno intensificado com produtos digitais)<br>\n  <b>Referências:</b> prática amplamente documentada e validada<br>\n  <b>Exemplos:</b> <a href='https://optimizely.com/optimization-glossary/ab-testing/'>Ver exemplo</a><br>\n  <b>Valuation/Impacto:</b> essencial para validação de hipóteses de produto com baixo risco<br>\n  <b>Classificação “Adopt”:</b> recomendada para decisões baseadas em dados e melhoria contínua<br><br>\n  <div style='width:100px;background:#eee'><div style='width:90%;background:#4CAF50;height:10px'></div></div>\n</div>"
   }
 ]
